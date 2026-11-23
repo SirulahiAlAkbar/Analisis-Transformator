@@ -851,7 +851,7 @@ def main():
         unsafe_allow_html=True,
     )
 
-    t1, t2, t3, t4 = st.tabs(["🏠 Dashboard", "📝 Input Data", "📊 Hasil & Grafik", "📚 Rumus & Sumber"])
+    t1, t2, t3, t4 = st.tabs(["Dashboard", "Input Data", "Hasil & Grafik", "Rumus & Sumber"])
     with t1:
         tab_dashboard()
     with t2:
